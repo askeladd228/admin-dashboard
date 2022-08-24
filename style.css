@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+.header {
+  grid-column: 2;
+  grid-row: 1/2;
+}
+
+.sidebar { 
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+
+.main {
+  grid-column: 2;
+  grid-row: 2/-1;
+}
